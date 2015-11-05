@@ -100,7 +100,6 @@ int main()
 
     cout<<"Number of instances of \"length\" class: "<<length::instances<<endl;
 
-    cin.get();
     return 0;
 }
 /* end of time_length.cpp */

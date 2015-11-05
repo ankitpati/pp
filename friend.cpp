@@ -91,7 +91,6 @@ int main()
     cr_add(c, r);
     c.put(); cout<<endl;
 
-    cin.get();
     return 0;
 }
 /* end of friend.cpp */

@@ -93,7 +93,6 @@ int main()
     cout<<" binary plus  ( +) : "; (r1+r2).put();
     cout<<" multiply     ( *) : "; (r1*r2).put();
     cout<<" divide       ( /) : "; (r1/r2).put();
-    cin.get();
     return 0;
 }
 /* end of opoload.cpp */

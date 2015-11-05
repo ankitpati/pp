@@ -1,5 +1,5 @@
-/* cmplx.cpp */
-/* Date  : 11 August 2015
+/* 3.cpp */
+/* Date  : 20 October 2015
  * Author: Ankit Pati
  */
 
@@ -36,12 +36,20 @@ void c_add(cmplx &c1, cmplx c2)
 int main()
 {
     cmplx c1, c2;
-
     c1.put(); cout<<"+ ";
     c2.put(); cout<<"= ";
     c_add(c1, c2);
     c1.put(); cout<<endl;
-
     return 0;
 }
-/* end of cmplx.cpp */
+/* end of 3.cpp */
+
+/* OUTPUT
+
+Enter complex number in "real imaginary" form:
+43 5
+Enter complex number in "real imaginary" form:
+64 32
+(43 + 5i) + (64 + 32i) = (107 + 37i)
+
+*/

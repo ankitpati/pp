@@ -57,7 +57,6 @@ int main()
         <<" - Circle    : "<<peri(r)<<endl
         <<" - Rectangle : "<<peri(l, b)<<endl
         <<" - Triangle  : "<<peri(s1, s2, s3)<<endl;
-    cin.get();
     return 0;
 }
 /* end of fnoload.cpp */
